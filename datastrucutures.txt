@@ -1,0 +1,34 @@
+
+array:
+	- sequential organization is implicit by position
+	- size must be known before-hand (in compile languages)
+
+linked lists:
+	
+	- each node contains link to next node
+	
+
+	advantages:
+		- can grown and shrink of the size of a program's lifetime
+		- provide flexability in allowing items to be rearranged efficiently
+		
+	disadvantages:
+		- find kth item in the list ( results in O(N) search )
+		- find previous item in the list (this is not a doubly linked list)
+		- doubly linked list resolve this issue , at the cost of having to do
+		to link manipulations per insert/delete etc.
+		
+pushdown stack
+	- two operations: push and pop
+	- insert/delete in beginning 
+	- can be implemented with arrays or linked list
+	- last in, first out (LIFO)
+	
+queues:
+	FIFO - first in first out
+	
+trees:
+	- collection  of vertices and edges that satisfies certain requirements
+
+		
+		
